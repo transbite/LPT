@@ -62,7 +62,7 @@ print("line counter",  c)
 file.close()
 
 #write file
-file2 = open("test2.txt",  "a")
+file2 = open("test2.txt",  "r")
 file2.write("Line 1\n")
 d = "2"
 file2.write("Line " +  "___" + d + "\n")
