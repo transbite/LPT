@@ -3,6 +3,8 @@
 
 #tutorials
 #1
+#https://docs.python.org/3.7/tutorial/index.html
+#https://docs.python.org/3/
 #https://docs.python.org/3/tutorial/classes.html
 #https://www.learnpython.org/en/Variables_and_Types
 #https://docs.python.org/3/reference/simple_stmts.html#the-del-statement
