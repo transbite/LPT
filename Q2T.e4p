@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project Q2T -->
-<!-- Saved: 2018-10-24, 23:55:17 -->
+<!-- Saved: 2018-10-25, 15:55:29 -->
 <!-- Copyright (C) 2018 ,  -->
 <Project version="5.1">
   <Language>en_US</Language>
@@ -17,107 +17,7 @@
     <Source>__init__.py</Source>
   </Sources>
   <Vcs>
-    <VcsType>Git</VcsType>
-    <VcsOptions>
-      <dict>
-        <key>
-          <string>add</string>
-        </key>
-        <value>
-          <list>
-            <string></string>
-          </list>
-        </value>
-        <key>
-          <string>checkout</string>
-        </key>
-        <value>
-          <list>
-            <string></string>
-          </list>
-        </value>
-        <key>
-          <string>commit</string>
-        </key>
-        <value>
-          <list>
-            <string></string>
-          </list>
-        </value>
-        <key>
-          <string>diff</string>
-        </key>
-        <value>
-          <list>
-            <string></string>
-          </list>
-        </value>
-        <key>
-          <string>export</string>
-        </key>
-        <value>
-          <list>
-            <string></string>
-          </list>
-        </value>
-        <key>
-          <string>global</string>
-        </key>
-        <value>
-          <list>
-            <string></string>
-          </list>
-        </value>
-        <key>
-          <string>history</string>
-        </key>
-        <value>
-          <list>
-            <string></string>
-          </list>
-        </value>
-        <key>
-          <string>log</string>
-        </key>
-        <value>
-          <list>
-            <string></string>
-          </list>
-        </value>
-        <key>
-          <string>remove</string>
-        </key>
-        <value>
-          <list>
-            <string></string>
-          </list>
-        </value>
-        <key>
-          <string>status</string>
-        </key>
-        <value>
-          <list>
-            <string></string>
-          </list>
-        </value>
-        <key>
-          <string>tag</string>
-        </key>
-        <value>
-          <list>
-            <string></string>
-          </list>
-        </value>
-        <key>
-          <string>update</string>
-        </key>
-        <value>
-          <list>
-            <string></string>
-          </list>
-        </value>
-      </dict>
-    </VcsOptions>
+    <VcsType>None</VcsType>
   </Vcs>
   <FiletypeAssociations>
     <FiletypeAssociation pattern="*.e4p" type="OTHERS"/>

@@ -4,9 +4,12 @@ import sys
 
 print("__name__ = ",  __name__)
 
-if __name__ == "__main__":
+def main():
     app = QtWidgets.QApplication(sys.argv)
     window = mainwindow.MainWindow()
     window.show()
-    sys.exit(app.exec_())
+    app.exec_()
+
+if __name__ == "__main__":
+    main()
 
