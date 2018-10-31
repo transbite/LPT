@@ -1,8 +1,14 @@
-from PyQt5 import QtWidgets,  uic
+from PyQt5 import QtCore,  QtWidgets,  uic
+#from PyQt5.Qt import QtMsgType
  
 qtCreatorFile = "mainwindow.ui" # Enter file here.
  
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
+  
+def myQtMsgHandler( msg_type, msg_log_context, msg_string ) :
+    print(msg_string)
+    #file = open("qDebugTest.txt",  "a")
+    #file.write(msg_string)
  
 class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
     """ Doc string for MainWindow
@@ -24,14 +30,16 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
     
         MainWindow::on_helloclicked documentation
         """ 
-        print(self._counter, ". Hello, World!")
+        #print(self._counter, ". Hello, World!")
         #no QString in PyQt5!?
         #str = QtCore.QString("%1. Hello, World!")#.arg(self.counter)
-        #QtCore.qDebug(str)
+        str = f"{self._counter}. Hello, World!"
+        QtCore.qDebug(str)
         self._counter += 1
         
     def on_action_Quittriggered(self):
-        print("Application is quitting...")
+        #print("Application is quitting...")
+        QtCore.qDebug("Application is quitting...")
         self.hide()
         QtWidgets.qApp.quit()
 

@@ -1,8 +1,12 @@
 import mainwindow
-from PyQt5 import QtWidgets
+from PyQt5 import QtCore,  QtWidgets
 import sys
 
-print("__name__ = ",  __name__)
+QtCore.qInstallMessageHandler(mainwindow.myQtMsgHandler)
+
+str = f"\n__name__ = {__name__}"
+#print(str)
+QtCore.qDebug(str)
 
 def main():
     app = QtWidgets.QApplication(sys.argv)
